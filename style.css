@@ -1,0 +1,22 @@
+#text{
+    text-align: center;
+    font-size: 10em;
+    font-family: sans-serif;
+}
+#counterBtn{
+    text-align: center;
+}
+.btn{
+    padding: 1%;
+    border-radius: 10cap;
+    font-size: larger;
+    cursor: pointer;
+    background-color: lime;;
+}
+.btn:hover{
+    background-color: limegreen;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
