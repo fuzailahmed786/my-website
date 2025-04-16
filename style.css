@@ -1,3 +1,9 @@
+body{
+    background-color: white;
+    color: black;
+    transition: background-color 0.50s;
+    
+}
 #text{
     text-align: center;
     font-size: 10em;
@@ -7,7 +13,7 @@
     text-align: center;
 }
 .btn{
-    padding: 1%;
+    padding: 25px 50px;
     border-radius: 10cap;
     font-size: larger;
     cursor: pointer;
@@ -15,8 +21,10 @@
 }
 .btn:hover{
     background-color: limegreen;
+    transition: background-color 0.25s;
 }
 .dark-mode {
     background-color: black;
     color: white;
-  }
+    transition: background-color 0.50s;
+}
